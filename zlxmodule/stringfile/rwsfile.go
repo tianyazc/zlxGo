@@ -1,4 +1,4 @@
-package rwsfile
+package stringfile
 
 import (
 	"fmt"
