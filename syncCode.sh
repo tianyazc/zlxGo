@@ -16,7 +16,8 @@ git add -A
 
 # 把修改的文件提交
 echo "执行命令：commit -m  $1"
-git commit -m $1
+git commit -m "$1"
+[ $? -ne 0 ] && exit 3
 
 echo "执行命令: git push"
 git push
