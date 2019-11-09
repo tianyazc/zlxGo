@@ -1,10 +1,10 @@
 package yaml
 
 import (
+	"gopkg.in/yaml.v3"
 	"io/ioutil"
 	"os"
 	"strings"
-	"gopkg.in/yaml.v3"
 )
 
 type Config struct {
