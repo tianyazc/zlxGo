@@ -4,6 +4,11 @@ package color
 type Color struct {
 }
 
+// newColor
+func NewColor() *Color {
+	return &Color{}
+}
+
 //红色
 func (color Color) Red(text string) string {
 	return "\033[31m" + text + "\033[0m" //输出红色
